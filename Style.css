@@ -1,0 +1,653 @@
+
+/*Null_Style*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+html::-webkit-scrollbar {
+  width: 0;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+/* First top*/
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	flex: 1 1 auto;
+}
+.first_block {
+	display: flex;
+	flex-direction: column;
+	height: 1127px;
+	background-color: #131210;
+}
+.container_first {
+	display: flex;
+	flex-direction: column;
+}
+.first_top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo {
+	margin-top: 55px;
+	margin-left: 95px;
+}
+.mail {
+	display: flex;
+	flex-direction: row;
+	margin-left: 20%;
+	margin-top: 55px;
+}
+.mail span {
+	margin-left: 10px;
+	font-size: 18px;
+	color: white;
+
+}
+.phone {
+	margin-top: 55px;
+}
+.phone span{
+	margin-left: 10px;
+	font-size: 18px;
+	color: white;
+
+}
+.log_in {
+	margin-top: 35px;
+	margin-right: 78px;
+}
+.log_in a {
+	display: block;
+	height: 60px;
+	text-align: center;
+	background-color: white;
+	border-radius: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: blue;
+	padding:25px 35px;
+}
+.first_content {
+	height: 930px;
+	
+
+}
+.first_content img {
+	margin:335px 520px 110px 360px;
+	position: absolute;
+	height: 480px;
+	width: 800px;
+	z-index: 11;
+
+}
+.Change {
+  font-size: 185px;
+  font-family: "Montserrat";
+  color: rgb(19, 18, 16);
+  font-weight: bold;
+  line-height: 0.39;
+  text-align: left;
+  text-shadow: 0px 0px 165px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 425.938px;
+  top: 305.925px;
+  z-index: 8;
+}
+.Your {
+  font-size: 185px;
+  font-family: "Montserrat";
+  color: rgb(19, 18, 16);
+  font-weight: bold;
+  line-height: 0.39;
+  text-align: left;
+  text-shadow: 0px 0px 165px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 150.342px;
+  top: 457.925px;
+  z-index: 9;
+}
+
+
+.Car1 {
+  font-size: 185px;
+  font-family: "Montserrat";
+  color: rgb(19, 18, 16);
+  font-weight: bold;
+  line-height: 0.39;
+  text-align: left;
+  text-shadow: 0px 0px 165px rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 1110.938px;
+  top: 457.925px;
+  z-index: 10;
+}
+
+
+
+
+.first_footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+
+}
+.title_input{
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 4.013;
+  text-align: left;
+  position: absolute;
+  left: 710.844px;
+  top: 959.999px;
+  z-index: 22;
+}
+.input_search{
+	width: 70%;
+	justify-content: space-between;
+}
+.input_search input {
+	font-size: 24px;
+	color: #ffffff;
+	margin: 0px 0px 0px 120px;
+	height: 70px;
+	width: 190px;
+	border: none;
+	background-color: #131210;/*black*/
+	border-bottom: 1px solid #3c3c3c; /*grey*/
+
+}
+.input_search input::placeholder {
+	color: #3c3c3c;
+	position: relative;
+	font-size: 30px;
+	font-weight: 600;
+	bottom: -13px;
+}
+
+.input_search input:focus::placeholder {
+  color: transparent;
+}
+
+.button_search a{
+	display: block;
+	height: 60px;
+	text-align: center;
+	background-color: blue;
+	border-radius: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #ffffff;
+	padding:20px 35px;
+}
+/* END FIRST BLOCK AND START SECOND CONTAINER*/
+
+
+.second_block {
+	display: flex;
+	flex-direction: column;
+	height: 904px;
+
+}
+.Take_best {
+	text-align: center;
+	margin-top: 50px;
+  	font-size: 18px;
+  	color: rgb(193, 193, 193);
+  	line-height: 4.013;
+}
+.car_mark {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.midle_wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 3%;
+}
+.midle_wrapper img {
+	margin: 185px 190px 145px 237px;
+}
+
+.midle_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	text-align: center;
+	width: 710px;
+	height: 600px;
+}
+.midle_title {
+  font-size: 60px;
+  color: rgb(19, 94, 197);
+  font-weight: bold;
+  line-height: 1.204;
+}
+.midle_own_text{
+  font-size: 16px;
+  color: rgb(193, 193, 193);
+  line-height: 3;
+}
+.view_button a {
+	display: block;
+	height: 60px;
+	width: 212px;
+	text-align: center;
+	background-color: blue;
+	border-radius: 25px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #ffffff;
+	padding:20px 10px;
+}
+
+
+/* END SECOND BLOCK AND START THIRD CONTAINER*/
+
+.third_block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 805px;
+	background: linear-gradient(to bottom, blue 70%, white 30%);
+}
+.third_title {
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.204;
+}
+.add_now_button a {
+	text-align: center;
+	padding: 20px 50px;
+	border-radius: 35px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgb(255, 255, 255);
+	width: 218px;
+	height: 59px;
+	color: #ffffff;
+}
+.third_block img {
+	width: 612px;
+	height: 240px;
+}
+
+
+
+
+/* END THIRD BLOCK AND START  fourth Block*/
+
+
+.fourth_block {
+	height: 840px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: baseline;
+
+}
+.benz_small_block {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 570px;
+	width: 450px;
+	background: linear-gradient(to top, white 70%, blue 30%);
+	box-shadow: 0px 0px 85px 0px rgba(5, 37, 81, 0.08);
+	
+}
+.benz_small_block img{
+	width: 285px;
+	height: 185px;
+}
+.fresh_button a {
+	margin-left: 97px;
+	margin-top: 5px;
+	display: block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	background-color: #ffffff; /* WHITE */
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(19, 94, 197);
+	padding:15px 70px 23px 31px;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	position: absolute;
+	z-index: 22;
+}
+.furie {
+  margin-top: 25px;
+  position: relative;
+  font-size: 60px;
+  color: #135ec5;
+  font-weight: bold;
+  line-height: 1.204;
+  text-align: center;
+  text-shadow: 10px 0px 55px rgba(0, 0, 0, 0.07);
+  opacity: 0.45;
+  -moz-transform: matrix( 2.63493190901854,0,0,2.63493190901855,0,0);
+  -webkit-transform: matrix( 2.63493190901854,0,0,2.63493190901855,0,0);
+  -ms-transform: matrix( 2.63493190901854,0,0,2.63493190901855,0,0);
+  z-index: 21;
+ 
+}
+.benz_title {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 2.408;
+    text-align: center;
+}
+.benz_subtitle {
+	margin-top:-40px;
+	font-size: 14px;
+	color: rgb(19, 94, 197);
+	font-weight: bold;
+	line-height: 5.159;
+	text-align: center;
+}
+.car_mileage {
+	margin-top:-40px;
+	font-size: 18px;
+	color: rgb(193, 193, 193);
+	line-height: 4.013;
+	text-align: center;
+}
+.benz_sm_wrap_flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.benz_sm_price {
+  margin-right: 60px;
+  font-size: 30px;
+  color: rgb(22, 173, 44);
+  font-weight: bold;
+  line-height: 2.408;
+}
+.more_info_button a {
+	display: block;
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #e2e2e2;
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	padding:10px 10px 23px 10px;
+	text-transform: uppercase;
+}
+
+.benz_large_block {
+	height: 683px;
+	width: 956px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: linear-gradient(to right, white 65%, blue 35%);
+	box-shadow: 0px 0px 85px 0px rgba(5, 37, 81, 0.08);
+}
+.large_top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+.large_top p{
+  margin-top: 28px;
+  color: #e2e2e2;
+  font-size: 14px;
+}
+.large_top span{
+  font-size: 30px;
+  color: rgb(22, 173, 44);
+  font-weight: bold;
+  line-height: 2.408;
+}
+.fresh_button_large a {
+	margin-top: 5px;
+	display: block;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	background-color: #ffffff; /* WHITE */
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(19, 94, 197);
+	padding:15px 70px 23px 31px;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+}
+.large_center {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.large_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: baseline;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+.large_text h2 {
+  font-size: 30px;
+  color: rgb(19, 94, 197);
+  font-weight: bold;
+  line-height: 2.408;
+}
+.large_text p {
+  font-size: 16px;
+  color: rgb(193, 193, 193);
+  line-height: 3;
+}
+.fresh_button_large_order_car a {
+	margin-top: 120px;
+	display: block;
+	height: 30px;
+	width: 150px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #135ec5;
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	padding:10px 10px 23px 10px;
+	text-transform: uppercase;
+}
+.large_img {
+	height: 380px;
+	width: 540px;
+}
+
+/* END FOURTH BLOCK AND START LAST Block*/
+
+
+.last_block {
+	height: 870px;
+	width: 1455px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background: linear-gradient(to bottom, white 55%, #135ec5 45%);
+	margin-left: 3%;
+	margin-bottom: 30px;
+}
+.forms1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+.forms1 input{
+	font-size: 16px;
+	font-weight: bold;
+  	line-height: 4.514;
+	color: #000000;
+	height: 45px;
+	width: 190px;
+	border-bottom: 1px solid #c1c1c1;
+}
+.forms1 input::placeholder {
+	position: relative;
+	font-weight: 600;
+	bottom: -5px;
+}
+.last_mark {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+.forms2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+}
+.forms2 input{
+	font-size: 16px;
+	font-weight: bold;
+  	line-height: 4.514;
+	color: #000000;
+	height: 45px;
+	width: 190px;
+	border-bottom: 1px solid #c1c1c1;
+
+}
+.forms2 input::placeholder {
+	position: relative;
+	font-weight: 600;
+	bottom: -5px;
+}
+.last_title {
+	height:59px ;
+	width:240px ;
+	background-color: #135ec5;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+	text-align: center;
+	}	
+.last_title span {
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	line-height: 6.019;
+	
+}
+.forms3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	
+}
+.forms3 input{
+	font-size: 16px;
+	font-weight: bold;
+  	line-height: 4.514;
+	color: #FFFFFF;
+	height: 45px;
+	width: 190px;
+	border-bottom: 1px solid #ffffff;
+	background-color: #135ec5;
+}
+.forms3 input::placeholder {
+	color: #ffffff;
+	position: relative;
+	font-weight: 600;
+	bottom: -5px;
+}
+.forms4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	
+}
+.forms4 input{
+	font-size: 16px;
+	font-weight: bold;
+  	line-height: 4.514;
+	color: #FFFFFF;
+	height: 45px;
+	width: 190px;
+	border-bottom: 1px solid #ffffff;
+	background-color: #135ec5;
+}
+.forms4 input::placeholder {
+	color: #ffffff;
+	position: relative;
+	font-weight: 600;
+	bottom: -5px;
+}
+.last_button a {
+	display: block;
+	height: 30px;
+	width: 60px;
+	text-align: center;
+	background-color: #ffffff; /* WHITE */
+	border-radius: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	color: rgb(19, 94, 197);
+	padding:15px 100px 29px 55px;
+	text-transform: uppercase;
+	font-family: "Montserrat";
+}
